@@ -1,0 +1,39 @@
+
+body {
+        font-family: 'sogeo UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+ }
+git 
+card-profil {
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        max-width: 400px;
+}
+
+.foto {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #fff;
+        box-shadow: 0 4px 8px rgba(30, 0, 255, 0.1);
+}
+
+.card-profil h1 {
+        font-size: 30px;
+        color: #333;
+        margin: 15px 0 10px;
+        margin-bottom: 10px;
+}
+
+.card-profil p {
+        font-size: 14px;
+        color: #666666;
+        margin-bottom: 30px;
+}
